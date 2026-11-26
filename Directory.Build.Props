@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+	<!-- Enable centralized package version management to use Directory.Packages.props -->
+	<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+
+	<!-- C# language and nullable/implicit-usings defaults for .NET 10 projects -->
+	<LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+
+	<!-- Build and CI defaults -->
+	<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	<Deterministic>true</Deterministic>
+	<ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+</Project>

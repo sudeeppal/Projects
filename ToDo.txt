@@ -1,0 +1,31 @@
+1. OpenTelemetry, Logger and Grafana
+2. Add DB config, env variables, add azure key vault secrets and hasicorp vault.
+3. Add Constants.cs
+4. Create SQL server in cloud.
+5. Add Mediator, Command, Queries and Handlers
+6. Add Authentication, Authorization and service to service calls.
+7. Add files to controller, register dependency injection and add mapper.
+8. Add EFcore migrations
+9. Add Swagger or any alternatives, postman.
+10. Add Services, IConfiguration.
+11. Add Unit Tests for each projects and files.
+12. Create github workflow and CI/CD pipelines.
+13. NodaTime
+14. Add Middleware, Api Health Checks.
+15. Add Memory Cache and Redis Cache for static data like Accounts and Securities.
+16. Rate Limiting.
+17. Retry mechanism and Global Exception.
+18. Add Integration tests, rancher deskstop, test containers and moq.
+19. Docker file.
+20. Seperate Read Write DB connection.
+21. Azure resource groups and services.
+22. Flow Diagram and Readme.
+
+Future
+
+1. Kafka Producer and Consumer application.
+2. Background Services
+3. FIX Client and Server for trade booking
+4. UI (React/Angular/Vue.js) and Typescripts.
+5. Instead of inserting trades directly into database. Publish messages into kafka topic after normalization the incoming request to specific model.
+6. Load testing, Performance testing and Benchmark testing.
